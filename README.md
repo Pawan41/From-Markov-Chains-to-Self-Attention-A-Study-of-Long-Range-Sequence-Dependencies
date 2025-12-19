@@ -41,9 +41,8 @@ The dataset is synthetically generated to explicitly violate the Markov property
 
 The next token is defined as:
 
-\[
-x_t = x_{t-3} \oplus x_{t-10}
-\]
+`x_t = x_{t-3} ⊕ x_{t-10}`
+
 
 Where:
 - ⊕ denotes XOR
