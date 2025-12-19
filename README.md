@@ -29,9 +29,7 @@ Markov models assume a fixed-order dependency:
 
 Transformers learn dependencies over the entire history:
 
-\[
-P(x_t \mid x_1, x_2, \dots, x_{t-1})
-\]
+`P(x_t | x_1, x_2, ..., x_{t-1})`
 
 When the data violates the Markov assumption, Markov models fail, while Transformers succeed by learning **adaptive memory through attention**.
 
