@@ -24,9 +24,8 @@ on the same dataset, specifically designed to require **long-range dependency mo
 
 Markov models assume a fixed-order dependency:
 
-\[
-P(x_t \mid x_{t-1})
-\]
+`P(x_t | x_{t-1})`
+
 
 Transformers learn dependencies over the entire history:
 
