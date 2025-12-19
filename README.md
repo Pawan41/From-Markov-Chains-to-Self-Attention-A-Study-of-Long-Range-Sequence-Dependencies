@@ -107,3 +107,17 @@ This behavior is characteristic of learning **compositional long-range dependenc
 - Model assumptions critically affect performance
 
 ---
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2️⃣ Run the Experiment
+```bash
+python3 -m experiments.compare_models
+```
